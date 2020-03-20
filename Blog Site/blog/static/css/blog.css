@@ -1,0 +1,48 @@
+.loader {
+  border: 16px solid #f3f3f3; /* Light grey */
+  border-top: 16px solid #3498db; /* Blue */
+  border-radius: 50%;
+  width: 120px;
+  height: 120px;
+  animation: spin 2s linear infinite;
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+.techfont {
+    font-family: 'Russo One', sans-serif;
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+.big-brand {
+    font-size: 1.5em;
+}
+
+.center-stage {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.post-date {
+    text-align: center;
+}
+
+.post-title {
+    font-family: 'Rusoo One', sans-serif;
+    font-size: 3em;
+    text-align: center;
+}
+
+.post-content {
+    font-family: 'Montserrat';
+    font-size: 1.5em;
+}
+
+.btn-comment {
+    position: absolute;
+    right: 0px;
+}
